@@ -1,5 +1,5 @@
 # Terminal Configs
-My config files for next:
+My personal config files for next:
 - ZSH
 - [Starship](https://starship.rs/) 
 
