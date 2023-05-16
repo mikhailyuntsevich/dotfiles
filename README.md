@@ -9,4 +9,4 @@ For emaxple [Nerd-Fonts](https://www.nerdfonts.com/)
 
 For WSL agent forward use [this](https://gist.github.com/strarsis/e533f4bca5ae158481bbe53185848d49) instruction
 
-Part based on dotfiles from [Christian Lempa](https://github.com/ChristianLempa/dotfiles/tree/main)
+Starship config based on dotfiles from [Christian Lempa](https://github.com/ChristianLempa/dotfiles/tree/main)
