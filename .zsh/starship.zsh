@@ -8,8 +8,9 @@ case $_distro in
     *linuxmint*)             ICON="";;
     *manjaro*)               ICON="";;
     *rhel*)                  ICON="";;
+    *rocky*)                 ICON="";;
     *ol*)                    ICON="";; 
-    *macos*)                 ICON="";;
+    *macos*)                 ICON="󰀵";;
     *)                       ICON="";;
 esac
 
