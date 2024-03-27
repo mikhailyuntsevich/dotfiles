@@ -9,11 +9,12 @@ alias tf="terraform"
 alias a="ansible"
 alias ap="ansible-playbook"
 
+# MacOS VSCode
 if [[ `uname` == "Darwin" ]]; then
   alias code="open -a 'Visual Studio Code'"
 fi
 
-# KeeAgent for wsl
+#Aliases for WSL
 if [ -f /proc/sys/fs/binfmt_misc/WSLInterop ]; then
   alias ssh='ssh.exe'
   alias ssh-add='ssh-add.exe'
