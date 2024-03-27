@@ -9,9 +9,4 @@ fpath=(~/.zsh/completion $fpath)
 [[ -f ~/.zsh/autocomplete.zsh ]] && source ~/.zsh/autocomplete.zsh
 [[ -f ~/.zsh/starship.zsh ]] && source ~/.zsh/starship.zsh
 
-# KeeAgent for wsl
-if [ -f /proc/sys/fs/binfmt_misc/WSLInterop ]; then
-  . ~/bin/wsl-ssh-agent-forwarder
-fi
-
 eval "$(starship init zsh)"
