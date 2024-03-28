@@ -13,9 +13,3 @@ alias ap="ansible-playbook"
 if [[ `uname` == "Darwin" ]]; then
   alias code="open -a 'Visual Studio Code'"
 fi
-
-#Aliases for WSL
-if [ -f /proc/sys/fs/binfmt_misc/WSLInterop ]; then
-  alias ssh='ssh.exe'
-  alias ssh-add='ssh-add.exe'
-fi
